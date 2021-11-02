@@ -62,7 +62,7 @@ if __name__ == '__main__':
 
     # Load the data
     data_list = []
-    for i in range(2000):
+    for i in range(70000):
         fname = base_dir + '/'+str(i)+'.txt'
         try:
             with open(fname, 'r') as f:
