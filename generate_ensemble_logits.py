@@ -33,7 +33,7 @@ def load_data(base_dir):
     '''
 
     data_list = []
-    for i in range(7000):
+    for i in range(20000):
         fname = base_dir + '/'+str(i)+'.txt'
         try:
             with open(fname, 'r') as f:
